@@ -1,16 +1,43 @@
 .App {
-    text-align: left;
+  text-align: left;
 }
 
 .App-header {
-    background-color: #222;
-    height: 50px;
-    padding: 20px;
-    color: white;
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between
 }
 
 .App-wrapper {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.App-header-cart-section {
+display: flex;
+}
+.App-title {
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cart-image {
+  padding: 20px;
+  flex: 1;
+  max-width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.cart-count{
+    height: 20px;
+    min-width: 20px;
+    padding: 25px 0;
+    color: white
 }

@@ -13,6 +13,7 @@ import registerServiceWorker from './registerServiceWorker';
 // Redux store
 import applicationStore from './registerApplicationStore';
 
+// console.log(applicationStore().getState())
 
 ReactDOM.render(
   <Provider store={applicationStore()}>
