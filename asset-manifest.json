@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TM-Redux-task/static/css/main.d4df5207.chunk.css",
-    "main.js": "/TM-Redux-task/static/js/main.3653f854.chunk.js",
-    "main.js.map": "/TM-Redux-task/static/js/main.3653f854.chunk.js.map",
+    "main.js": "/TM-Redux-task/static/js/main.57c52163.chunk.js",
+    "main.js.map": "/TM-Redux-task/static/js/main.57c52163.chunk.js.map",
     "runtime~main.js": "/TM-Redux-task/static/js/runtime~main.49722137.js",
     "runtime~main.js.map": "/TM-Redux-task/static/js/runtime~main.49722137.js.map",
     "static/js/2.7d97e6c3.chunk.js": "/TM-Redux-task/static/js/2.7d97e6c3.chunk.js",
     "static/js/2.7d97e6c3.chunk.js.map": "/TM-Redux-task/static/js/2.7d97e6c3.chunk.js.map",
     "index.html": "/TM-Redux-task/index.html",
-    "precache-manifest.1ee51a1fd835676410d6b760bcbaed3d.js": "/TM-Redux-task/precache-manifest.1ee51a1fd835676410d6b760bcbaed3d.js",
+    "precache-manifest.9894c5d570161b0f4cb39b7e838e3bc8.js": "/TM-Redux-task/precache-manifest.9894c5d570161b0f4cb39b7e838e3bc8.js",
     "service-worker.js": "/TM-Redux-task/service-worker.js",
     "static/css/main.d4df5207.chunk.css.map": "/TM-Redux-task/static/css/main.d4df5207.chunk.css.map"
   }
