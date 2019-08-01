@@ -1,8 +1,9 @@
 // Core dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Provider} from 'react-redux';
+import { Provider } from 'react-redux';
 
+import { HashRouter } from 'react-router-dom'
 // Application dependencies
 import './index.css';
 import App from './App';
@@ -14,10 +15,11 @@ import registerServiceWorker from './registerServiceWorker';
 import applicationStore from './registerApplicationStore';
 
 // console.log(applicationStore().getState())
-
 ReactDOM.render(
   <Provider store={applicationStore()}>
-    <App />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </Provider>, document.getElementById('root'));
 
 registerServiceWorker();
