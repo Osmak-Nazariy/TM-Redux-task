@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 // Components
 import SideBar from './components/sidebar';
 import Cart from './containers/cart';
@@ -17,7 +17,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <header className="App-header">
-            <h1 className="App-title"><Link to={process.env.PUBLIC_URL + "/products"} className="App-title">My simple shop</Link></h1>
+            <h1 className="App-title"><Link to="/products" className="App-title">My simple shop</Link></h1>
             <div className='App-header-cart-section'>
               <Link to={process.env.PUBLIC_URL + "/cart"}>
                 <img className='cart-image' src='https://icon2.kisspng.com/20180320/dvq/kisspng-shopping-cart-computer-icons-white-cart-png-simple-5ab15d02e7c8b8.7488579515215731229494.jpg' alt='Cart' />
@@ -27,8 +27,8 @@ class App extends Component {
           </header>
           <div className="App-wrapper">
             <SideBar />
-            <Route path={process.env.PUBLIC_URL + "/products"} component={ProductList} />
-            <Route path={process.env.PUBLIC_URL + "/cart"} component={Cart} />
+            <Route path="/products" component={ProductList} />
+            <Route path="/cart" component={Cart} />
           </div>
         </div>
       </Router>
