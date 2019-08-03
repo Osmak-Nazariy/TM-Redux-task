@@ -8,7 +8,7 @@
   padding: 20px;
   color: white;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 .App-wrapper {
@@ -18,7 +18,12 @@
 }
 
 .App-header-cart-section {
-display: flex;
+  display: flex;
+  flex: 0.3;
+  padding-top: 20px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .App-title {
   cursor: pointer;
@@ -28,16 +33,52 @@ display: flex;
 }
 
 .cart-image {
-  padding: 20px;
   flex: 1;
   max-width: 30px;
   height: 30px;
   cursor: pointer;
 }
 
-.cart-count{
-    height: 20px;
-    min-width: 20px;
-    padding: 25px 0;
-    color: white
+.cart-count {
+  height: 20px;
+  min-width: 20px;
+  color: white;
+}
+.add-new-product-btn {
+  max-width: 100%;
+  outline: none;
+  height: 50%;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.add-new-product-form {
+  margin: 20px;
+  display: flex;
+}
+
+.add-new-product-label {
+  margin: 20px;
+  line-height: 20px;
+  font-weight: 600
+}
+
+.btn-container {
+  width: 200px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.save-product-btn {
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(192, 247, 138);
+  border-radius: 5px;
+}
+.cansel-btn {
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(247, 138, 138);
+  border-radius: 5px;
 }

@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 
-import { HashRouter } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 // Application dependencies
 import './index.css';
 import App from './App';
@@ -14,11 +14,10 @@ import registerServiceWorker from './registerServiceWorker';
 // Redux store
 import applicationStore from './registerApplicationStore';
 
-// console.log(applicationStore().getState())
 ReactDOM.render(
   <Provider store={applicationStore()}>
     <HashRouter>
-      <App />
+      <Route component={App}/>
     </HashRouter>
   </Provider>, document.getElementById('root'));
 
